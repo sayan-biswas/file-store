@@ -1,0 +1,20 @@
+# build output
+/bin
+
+# temporary files
+/temp
+
+# sensitive files
+/ssl
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db

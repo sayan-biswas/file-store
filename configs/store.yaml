@@ -1,0 +1,27 @@
+server:
+  host: localhost
+  port: 4000
+  debug: true
+  tls: false
+  log: debug
+  certificate: ssl/certificate.crt
+  privateKey: ssl/private.key
+
+cors:
+  allowOrigins:
+    - https://localhost:4000
+  allowMethods:
+    - DELETE
+    - GET
+    - POST
+    - PUT
+    - PATCH
+    - HEAD
+    - OPTIONS
+  maxAge: 86400
+
+database:
+  diskless: false
+  encryption: false
+  cacheSize: 0
+  path: temp/database
