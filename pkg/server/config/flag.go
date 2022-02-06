@@ -8,7 +8,7 @@ import (
 func init() {
 	pflag.Bool("debug", false, "Debug Mode")
 	pflag.String("log", "info", "Logger Mode - (debug, info, warn, error, fatal, panic)")
-	pflag.String("config", "store.yaml", "Configuration File")
+	pflag.String("config", "config.yaml", "Configuration File")
 	pflag.Int("port", 8080, "Server Port")
 	pflag.String("host", "", "Server Hostname")
 	pflag.Bool("tls", false, "Enable TLS")

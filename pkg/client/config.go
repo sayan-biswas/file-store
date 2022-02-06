@@ -19,7 +19,7 @@ const fingerprint string = "703273357638792F"
 var config = &cobra.Command{
 	Use:   "config",
 	Long:  "Configure store URL",
-	Short: "Confiure store",
+	Short: "Configure store",
 	Args:  cobra.NoArgs,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := setConfig(); err != nil {
