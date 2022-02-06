@@ -16,7 +16,7 @@ make build
 
 ### Server
 ```
-./bin/store
+./bin/server/store
 ```
 ```
 Usage:
@@ -65,7 +65,7 @@ database:
 
 ### Client
 ```
-./bin/store
+./bin/client/store
 ```
 #### Client Config
 The client requires the server endpoint configuration. This only required once.
