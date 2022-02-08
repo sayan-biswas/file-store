@@ -31,6 +31,10 @@ run: ## Run server
 run-docker: ## Run as docker container
 	docker run --rm --name store -p 8080:8080 -v $(pwd)/database:/database store:latest
 
+## Test:
+test: ## Run all tests
+	go test -v test/server	
+
 ## Clean:
 clean: ## Clean build environment and bin folder
 	go clean
